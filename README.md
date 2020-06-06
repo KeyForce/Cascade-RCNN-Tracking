@@ -85,7 +85,9 @@ ReID的优化建议参考罗浩老师的Strong ReID Baseline
 ```
 ├─configs
 │   └─MyDet    模型配置文件
-├─Fair_sort    移植FairMOT的Track代码
+├─deep_sort    deepsort代码
+├─MOTDT        MOTDT代码
+├─tracktor     Trackor++代码，测试显示效果并不好，增加迭代次数，直接显存爆满
 ├─MGN          Mutiple Granularity Network用于替换deepsort的ReID
 ├─models       MMDetection官方训练的coco模型
 ├─mmdet        底层，此处部分与官方master分支不一致,目前cascade不支持在bbox使用IOU，GIOU，修改参看
@@ -106,7 +108,6 @@ ReID的优化建议参考罗浩老师的Strong ReID Baseline
 │  │  mot19_to_coco.py
 │  │  PRW_to_coco.py
 │  └─ voc2coco.py
-├─tracktor  移植Trackor++代码，测试显示效果并不好，增加迭代次数，直接显存爆满
 └─work_dir  部分数据集的训练模型，log，包含crowdhuman，MOT16-17，均采用cascade rcnn
 │  │  coco_mot16_17_res_50_focalloss_giou_cascade_rcnn_dconv_c3-c5_fpn_1x
 │  └─ coco_crowdhuman_resxt_101_focalloss_giou_cascade_rcnn_dconv_c3-c5_fpn_1x
