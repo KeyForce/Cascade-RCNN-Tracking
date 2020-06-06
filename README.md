@@ -122,7 +122,7 @@ ReID的优化建议参考罗浩老师的Strong ReID Baseline
 
 Ubuntu 16.04.4 LTS 单卡1080Ti CUDA Version 10.0.130
 
-下载代码并执行conda env create -f environment.yml即可完成环境安装，并执行conda activate env进入环境。
+首先安装[MMdetection](https://mmdetection.readthedocs.io/en/latest/install.html)，下载代码并执行conda env create -f environment.yml即可完成环境安装，并执行conda activate env进入环境。
 
 ## 总结
 
