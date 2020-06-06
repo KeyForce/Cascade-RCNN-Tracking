@@ -7,7 +7,7 @@
 - 目标跟踪采用DeepSort、MOTDT、Trackor++
 - 特征提取采用Mutiple Granularity Network
 
-<div align=center><img src="image/流程.png" alt="流程" style="zoom:35%;" /></div>
+<div align=center><img height="250" src="image/流程.png" alt="流程"/></div>
 
 ## Cascade-RCNN
 
@@ -15,7 +15,7 @@
 
 对于MMDetection这框架，1.0版本是不支持GIOU的，最新2.0是支持的，所以GIOU这部分程序我自己加上了，这边底层比较好改，RPN层使用FocalLoss这样可以缓解由于目标占比较少导致生成的Anchor正负样本比例失衡，双卡1080Ti大概训练了3天。
 
-<div align=center><img src="image/image-20200606144948942.png" alt="image-20200606144948942" style="zoom:150%;" /></div>
+<div align=center><img src="image/image-20200606144948942.png" alt="image-20200606144948942" height="350"/></div>
 
 ## DeepSort
 
@@ -68,7 +68,7 @@ Mutiple Granularity Network 多重粒度网络
 
 MGN是一个多分支的深度网络：**一个全局特征表示**的分支和**两个局部特征表示**的分支。
 
-<div align=center><img src="image/10460403-995281659bcd053d.webp" alt="10460403-995281659bcd053d" style="zoom:60%;" /></div>
+<div align=center><img src="image/10460403-995281659bcd053d.webp" alt="10460403-995281659bcd053d" height="400"/></div>
 
 不同的N表示不同的粒度，N越大粒度越细。中间的分支N=2，可以理解为将行人分为上半身和下半身；下面的分支N=3，可以理解为将行人分为上，中，下三个部分。
 
@@ -78,7 +78,7 @@ ReID的优化建议参考罗浩老师的Strong ReID Baseline
 
 其**核心思想**是同时从Object detection和object tracking里同时生成object candidates (bbox)，设计一种**评分机制**以选择最终的Candidates（如下图）。这里的intuition是detection和tracking是相辅相成的，比如detection里的high confidence结果可以防止tracking drifts，而tracking可以降低detection带来的偶然的不准确性。
 
-<div align=center><img src="image/image-20200606152224434.png" alt="image-20200606144948942" style="zoom:80%;" /></div>
+<div align=center><img src="image/image-20200606152224434.png" alt="image-20200606144948942" height="400"/></div>
 
 
 
@@ -132,5 +132,5 @@ Ubuntu 16.04.4 LTS 单卡1080Ti CUDA Version 10.0.130
 
 对于跟踪模块，目前来说还有更好的解决方案，比如使用MOTDT，此算法在DeepSort的基础上加入了轨迹评分的机制，目前像FairMOT、JDE使用的跟踪模块都是MOTDT，从精度和速度上此算法表现都是不错的。
 
-<div align=center><img src="image/MOT.png" alt="MOT.png" style="zoom:35%;" /></div>
+<div align=center><img src="image/MOT.png" alt="MOT.png" height="300"/></div>
 
