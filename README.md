@@ -15,7 +15,7 @@
 
 对于MMDetection这框架，1.0版本是不支持GIOU的，最新2.0是支持的，所以GIOU这部分程序我自己加上了，这边底层比较好改，RPN层使用FocalLoss这样可以缓解由于目标占比较少导致生成的Anchor正负样本比例失衡，双卡1080Ti大概训练了3天。
 
-<img src="image/image-20200606144948942.png" alt="image-20200606144948942" style="zoom:150%;" />
+<div align=center><img src="image/image-20200606144948942.png" alt="image-20200606144948942" style="zoom:150%;" /></div>
 
 ## DeepSort
 
