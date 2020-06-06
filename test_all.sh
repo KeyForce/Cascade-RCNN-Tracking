@@ -1,0 +1,5 @@
+python my_mgn_sort.py --config configs/dcn/cascade_rcnn_dconv_c3-c5_r50_fpn_1x.py --checkpoint models/cascade_rcnn_dconv_c3-c5_r50_fpn_1x_20190125-dfa53166.pth --exp_name cascade_rcnn_dconv_c3-c5_r50_fpn_coco_max_dist_2
+python my_mgn_sort.py --config configs/htc/htc_dconv_c3-c5_mstrain_400_1400_x101_64x4d_fpn_20e.py --checkpoint models/htc_dconv_c3-c5_mstrain_400_1400_x101_64x4d_fpn_20e_20190408-0e50669c.pth --exp_name htc_dconv_c3-c5_mstrain_fpn_coco_max_dist_2
+python my_mgn_sort.py --config configs/hrnet/HTC_HRNetV2p_W48.py --checkpoint models/htc_hrnetv2p_w48_28e_20190810-a4274b38.pth --exp_name htc_hrnetv2p_w48_coco_max_dist_2
+python my_mgn_sort.py --config configs/hrnet/cascade_mask_rcnn_hrnetv2p_w48.py --checkpoint models/cascade_mask_rcnn_hrnetv2p_w48_20e_20190810-d04a1415.pth --exp_name cascade_mask_rcnn_hrnetv2p_w48_coco_max_dist_2
+python my_mgn_sort.py --config configs/MyDet/cascade_mask_rcnn_dconv_c3-c5_r101_fpn_1x.py --checkpoint models/cascade_mask_rcnn_dconv_c3-c5_r101_fpn_1x_20190125-0d62c190.pth --exp_name cascade_mask_rcnn_dconv_c3-c5_r101_fpn_1x
