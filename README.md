@@ -133,3 +133,12 @@ Ubuntu 16.04.4 LTS 单卡1080Ti CUDA Version 10.0.130
 
 ![MOT](image/MOT.png)
 
+## 资源
+
+[Crowdhuman人体检测比赛第一名经验总结 - 知乎](https://zhuanlan.zhihu.com/p/68677880)
+
+[行人检测数据集汇总（持续更新） - 知乎](https://zhuanlan.zhihu.com/p/31836357)
+
+[Pedestrian Detection - Papers With Code](https://paperswithcode.com/task/pedestrian-detection)
+
+[Multi-Object Tracking - Papers With Code](https://paperswithcode.com/task/multi-object-tracking)
