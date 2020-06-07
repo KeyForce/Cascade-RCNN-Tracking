@@ -15,7 +15,7 @@
 
 对于MMDetection这框架，1.0版本是不支持GIOU的，最新2.0是支持的，所以GIOU这部分程序我自己加上了，这边底层比较好改，RPN层使用FocalLoss这样可以缓解由于目标占比较少导致生成的Anchor正负样本比例失衡，双卡1080Ti大概训练了3天。
 
-![image-20200606144948942](image/image-20200606144948942.png)
+<div align=center><img src ="image/image-20200606144948942.png"/></div>
 
 ## DeepSort
 
@@ -78,7 +78,7 @@ ReID的优化建议参考罗浩老师的Strong ReID Baseline
 
 其**核心思想**是同时从Object detection和object tracking里同时生成object candidates (bbox)，设计一种**评分机制**以选择最终的Candidates（如下图）。这里的intuition是detection和tracking是相辅相成的，比如detection里的high confidence结果可以防止tracking drifts，而tracking可以降低detection带来的偶然的不准确性。
 
-![image-20200606152224434](image/image-20200606152224434.png)
+<div align=center><img src ="image/image-20200606152224434.png"/></div>
 
 ## 项目结构
 
