@@ -135,6 +135,8 @@ Ubuntu 16.04.4 LTS 单卡1080Ti CUDA Version 10.0.130
 
 ## 资源
 
+[【智源-旷视科技】2019冠军团队经验分享 | 2020 CrowdHuman 人体检测大赛经验分享_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili](https://www.bilibili.com/video/BV1g5411W7Bo?from=search&seid=17939842903110119715)
+
 [Crowdhuman人体检测比赛第一名经验总结 - 知乎](https://zhuanlan.zhihu.com/p/68677880)
 
 [行人检测数据集汇总（持续更新） - 知乎](https://zhuanlan.zhihu.com/p/31836357)
