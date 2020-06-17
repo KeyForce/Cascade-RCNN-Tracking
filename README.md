@@ -163,24 +163,36 @@ Ubuntu 16.04.4 LTS 单卡1080Ti CUDA Version 10.0.130
 
 ## 参考
 
-[LibMOT Public目标跟踪整合库](
-https://github.com/nightmaredimple/libmot)
-
-[DeepMOT](https://gitlab.inria.fr/yixu/deepmot)
-
-[CVPR 2020 目标跟踪](https://github.com/amusi/CVPR2020-Code#Object-Tracking)
-
 [MOTChallenge](https://motchallenge.net/)
-
-[多目标跟踪MOT16数据集和评价指标](https://zhuanlan.zhihu.com/p/108962781)
-
-[Crowdhuman人体检测比赛第一名经验总结 - 知乎](https://zhuanlan.zhihu.com/p/68677880)
-
-[【智源-旷视科技】2019冠军团队经验分享 | 2020 CrowdHuman 人体检测大赛经验分享_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili](https://www.bilibili.com/video/BV1g5411W7Bo?from=search&seid=17939842903110119715) [PPT链接](https://pan.baidu.com/s/14tA77RTS9yuyxEmBJJF_DA) 提取码：ah3m
 
 [行人检测数据集汇总（持续更新） - 知乎](https://zhuanlan.zhihu.com/p/31836357)
 
 [Pedestrian Detection - Papers With Code](https://paperswithcode.com/task/pedestrian-detection)
 
 [Multi-Object Tracking - Papers With Code](https://paperswithcode.com/task/multi-object-tracking)
+
+
+
+CVPR 2020
+
+* [CVPR 2020 Code 目标跟踪](https://github.com/amusi/CVPR2020-Code#Object-Tracking)
+* [CVPR 2020 论文大盘点—行人检测与重识别篇](https://mp.weixin.qq.com/s/0NujdJmt6IzuCPP6N8Fa_A)
+* [CVPR 2020 论文大盘点—目标跟踪篇](https://mp.weixin.qq.com/s?__biz=MzIwMTE1NjQxMQ==&mid=2247516614&idx=2&sn=a7deb77f6bdc97603de8b8fdde13d793&chksm=96f0f392a1877a841ef0fa4ca6d9d770fa0258ab4f495a409d9d75e4c462b8414b128edb2fee&scene=21#wechat_redirect)
+
+Public Tracking
+
+* [DeepMOT 端到端的数据关联](https://gitlab.inria.fr/yixu/deepmot)
+* [Learning a Neural Solver for Multiple Object Tracking](https://github.com/dvl-tum/mot_neural_solver)
+* [LibMOT Public-目标跟踪整合库](
+  https://github.com/nightmaredimple/libmot)
+
+Object Detection
+
+* [Crowdhuman人体检测比赛第一名经验总结 - 知乎](https://zhuanlan.zhihu.com/p/68677880)
+
+  [【智源-旷视科技】2019冠军团队经验分享 | 2020 CrowdHuman 人体检测大赛经验分享_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili](https://www.bilibili.com/video/BV1g5411W7Bo?from=search&seid=17939842903110119715) [PPT链接](https://pan.baidu.com/s/14tA77RTS9yuyxEmBJJF_DA) 提取码：ah3m
+
+* [Detection in Crowded Scenes: One Proposal, Multiple Predictions]()
+
+
 
