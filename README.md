@@ -80,6 +80,34 @@ ReID的优化建议参考罗浩老师的Strong ReID Baseline
 
 <div align=center><img src ="image/image-20200606152224434.png"/></div>
 
+## 目标跟踪
+
+### 模块
+
+* Data Association
+* Motion
+* Appearance
+
+### 评价指标
+
+|                                          |                                                              |
+| :--------------------------------------: | :----------------------------------------------------------- |
+| MOTA(Multiple Object Tracking Accuracy)  | 主要考虑的是跟踪中所有对象匹配错误，主要是FP,FN,IDs          |
+|                   IDF1                   | 正确识别的检测与真实数和计算检测的平均数之比                 |
+| MOTP(Multiple Object Tracking Precision) | 主要量化检测器的定位精度，几乎不包含与跟踪器实际性能相关的信息 |
+|            MT(Mostly Tracked)            | 满足Ground Truth至少在80%的时间内都匹配成功的track，在所有追踪目标中所占的比例。注意这里的MT和ML与当前track的ID是否发生变化无关，只要Ground Truth与目标匹配上即可 |
+|             ML (Mostly Lost)             | 满足Ground Truth在小于20%的时间内匹配成功的track，在所有追踪目标中所占的比例。 |
+|           FP (False Positive)            | 当前帧预测的track和detection没有匹配上，将错误预测的track点称为FP |
+|           FN (False Negative)            | 当前帧预测的track和detection没有匹配上，将未被匹配的ground truth点称为FN（也可以称为Miss） |
+|                  Recall                  | 正确检测与总GT数之比                                         |
+|                Precision                 | Ratio of TP / (TP+FP)                                        |
+|                   FAF                    | 每帧的平均错误数                                             |
+|                  ID Sw.                  | Ground Truth所分配的ID发生变化的次数                         |
+|                   Frag                   | 一个轨迹在跟踪过程中断的总次数。                             |
+|                    Hz                    | 处理速度(以帧/秒计算，不包括检测器)，频率由作者提供，而不是由MOTChallenge正式评估。 |
+
+![image-20200617143859483](image/image-20200617143859483.png)
+
 ## 项目结构
 
 ```
@@ -133,7 +161,18 @@ Ubuntu 16.04.4 LTS 单卡1080Ti CUDA Version 10.0.130
 
 ![MOT](image/MOT.png)
 
-## 资源
+## 参考
+
+[LibMOT Public目标跟踪整合库](
+https://github.com/nightmaredimple/libmot)
+
+[DeepMOT](https://gitlab.inria.fr/yixu/deepmot)
+
+[CVPR 2020 目标跟踪](https://github.com/amusi/CVPR2020-Code#Object-Tracking)
+
+[MOTChallenge](https://motchallenge.net/)
+
+[多目标跟踪MOT16数据集和评价指标](https://zhuanlan.zhihu.com/p/108962781)
 
 [Crowdhuman人体检测比赛第一名经验总结 - 知乎](https://zhuanlan.zhihu.com/p/68677880)
 
@@ -144,3 +183,4 @@ Ubuntu 16.04.4 LTS 单卡1080Ti CUDA Version 10.0.130
 [Pedestrian Detection - Papers With Code](https://paperswithcode.com/task/pedestrian-detection)
 
 [Multi-Object Tracking - Papers With Code](https://paperswithcode.com/task/multi-object-tracking)
+
