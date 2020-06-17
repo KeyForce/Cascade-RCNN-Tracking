@@ -182,7 +182,7 @@ CVPR 2020
 Public Tracking
 
 * [DeepMOT 端到端的数据关联](https://gitlab.inria.fr/yixu/deepmot)
-* [Learning a Neural Solver for Multiple Object Tracking](https://github.com/dvl-tum/mot_neural_solver)
+* [MPN Tracker 端到端的数据关联](https://github.com/dvl-tum/mot_neural_solver)
 * [LibMOT Public-目标跟踪整合库](
   https://github.com/nightmaredimple/libmot)
 
