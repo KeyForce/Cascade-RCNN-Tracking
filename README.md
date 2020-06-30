@@ -171,8 +171,6 @@ Ubuntu 16.04.4 LTS 单卡1080Ti CUDA Version 10.0.130
 
 [Multi-Object Tracking - Papers With Code](https://paperswithcode.com/task/multi-object-tracking)
 
-
-
 CVPR 2020
 
 * [CVPR 2020 Code 目标跟踪](https://github.com/amusi/CVPR2020-Code#Object-Tracking)
@@ -194,5 +192,8 @@ Object Detection
 
 * [Detection in Crowded Scenes: One Proposal, Multiple Predictions]()
 
+Other Implementation
 
+* [ZET MOT RANK2](https://github.com/TimeChi/ZXMOT)
 
+  
