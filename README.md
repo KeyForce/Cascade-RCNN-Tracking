@@ -192,8 +192,7 @@ Object Detection
 
 * [Detection in Crowded Scenes: One Proposal, Multiple Predictions]()
 
-Other Implementation
+Other Implement
 
 * [ZET MOT RANK2](https://github.com/TimeChi/ZXMOT)
-
-  
+* [ZET MOT B-Data Top-1](https://github.com/muzishen/deepsort)
