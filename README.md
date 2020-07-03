@@ -196,3 +196,7 @@ Other Implement
 
 * [ZET MOT RANK2](https://github.com/TimeChi/ZXMOT)
 * [ZET MOT B-Data Top-1](https://github.com/muzishen/deepsort)
+
+Optimization
+
+* [优化余弦距离的计算 - 知乎](https://zhuanlan.zhihu.com/p/81682950)
