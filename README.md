@@ -196,6 +196,7 @@ Other Implement
 
 * [ZET MOT RANK2](https://github.com/TimeChi/ZXMOT)
 * [ZET MOT B-Data Top-1](https://github.com/muzishen/deepsort)
+* [**HorizonMOT**](https://arxiv.org/abs/2006.15506) 这个很强！地平线作品，2020 Waymo比赛第一！
 
 Optimization
 
