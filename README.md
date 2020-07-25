@@ -30,7 +30,7 @@
 4.卡尔曼滤波**更新**
 
 * Frame 0：检测器检测到了3个detections，当前没有任何tracks，将这3个detections初始化为tracks                                                                                          
-* Frame 1：检测器又检测到了3个detections，对于Frame 0中的tracks，先进行预测得到新的tracks，然后使用匈牙利算法将新的tracks与detections进行匹配，得到(track, detection)匹配对，最后用每对中的detection更新对应的track
+* Frame 1：检测器又检测到了3个detections，对于Frame 0中的tracks，先进行预测得到新的tracks，然后使用匈牙利算法将新的tracks与detections进行匹配，得到(track, detection)匹配对，最后用每对中的detection更新对应的track（因此DeepSort是非常依赖目标检测产生的结果的）
 
 ### 算法参数
 
@@ -77,6 +77,8 @@ ReID的优化建议参考罗浩老师的Strong ReID Baseline
 ## MOTDT
 
 其**核心思想**是同时从Object detection和object tracking里同时生成object candidates (bbox)，设计一种**评分机制**以选择最终的Candidates（如下图）。这里的intuition是detection和tracking是相辅相成的，比如detection里的high confidence结果可以防止tracking drifts，而tracking可以降低detection带来的偶然的不准确性。
+
+MOTDT相比较DeepSort在预测同时考虑了目标检测产生的BBox和卡尔曼滤波预测的BBox，并且评分机制是考虑了BBox区域的分类结果和跟踪是否断开来评分。
 
 <div align=center><img src ="image/image-20200606152224434.png"/></div>
 
