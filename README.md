@@ -108,8 +108,6 @@ MOTDT相比较DeepSort在预测同时考虑了目标检测产生的BBox和卡尔
 | Frag                                     | 一个轨迹在跟踪过程中断的总次数。                             |
 | Hz                                       | 处理速度(以帧/秒计算，不包括检测器)，频率由作者提供，而不是由MOTChallenge正式评估。 |
 
-<div align=center><img src ="image/image-20200617143859483.png"/></div>
-
 ## 项目结构
 
 ```
@@ -198,8 +196,4 @@ Other Implement
 
 * [ZET MOT RANK2](https://github.com/TimeChi/ZXMOT)
 * [ZET MOT B-Data Top-1](https://github.com/muzishen/deepsort)
-* [**HorizonMOT**](https://arxiv.org/abs/2006.15506) 这个很强！地平线作品，2020 Waymo比赛第一！
-
-Optimization
-
-* [优化余弦距离的计算 - 知乎](https://zhuanlan.zhihu.com/p/81682950)
+* [**HorizonMOT**](https://arxiv.org/abs/2006.15506)
