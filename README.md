@@ -194,10 +194,13 @@ Object Detection
 
   [【智源-旷视科技】2019冠军团队经验分享 | 2020 CrowdHuman 人体检测大赛经验分享_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili](https://www.bilibili.com/video/BV1g5411W7Bo?from=search&seid=17939842903110119715) [PPT链接](https://pan.baidu.com/s/14tA77RTS9yuyxEmBJJF_DA) 提取码：ah3m
 
-* [Detection in Crowded Scenes: One Proposal, Multiple Predictions]()
+* [CrowdDetection](https://github.com/megvii-model/CrowdDetection?utm_source=catalyzex.com)
+
+* [Pedestrian Detection: The Elephant In The Room. On ArXiv 2020](https://github.com/hasanirtiza/Pedestron)
 
 Other Implement
 
 * [ZET MOT RANK2](https://github.com/TimeChi/ZXMOT)
 * [ZET MOT B-Data Top-1](https://github.com/muzishen/deepsort)
 * [**HorizonMOT**](https://arxiv.org/abs/2006.15506)
+
